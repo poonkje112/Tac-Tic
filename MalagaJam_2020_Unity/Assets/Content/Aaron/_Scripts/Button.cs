@@ -1,6 +1,5 @@
-using System;
 using UnityEngine;
-using UnityEngine.Events;
+using XboxCtrlrInput;
 
 namespace MalagaJam.Object
 {
@@ -30,7 +29,7 @@ namespace MalagaJam.Object
 
         void ButtonBehaviour()
         {
-            if (ObjectsInRange.Count > 0)
+            if (ObjectsInRange.Count > 0 && objectRepairState == ObjectRepairState.Repaired)
             {
                 if (singlePlayer)
                 {
