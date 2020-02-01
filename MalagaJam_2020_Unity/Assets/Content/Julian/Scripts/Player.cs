@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
         float bottomY = transform.position.y - m_collider.size.y / 2f;
         float groundDistance = bottomY - hit.point.y;
 
-        if (XCI.GetButtonDown(XboxButton.A, m_controller) && groundDistance <= m_jumpGroundDistance)
+        if ((XCI.GetButtonDown(XboxButton.A, m_controller) || (Input.GetAxisRaw("Vertical") > 0)) && groundDistance <= m_jumpGroundDistance)
         {
             m_velocity.y = m_jumpForce;
         }
@@ -62,9 +62,13 @@ public class Player : MonoBehaviour
                 m_grounded = false;
             }
         }
-        
 
-        float move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
+        float move;
+#if UNITY_EDITOR
+        move = Input.GetAxisRaw("Horizontal") * m_maxSpeed;
+#else
+        move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
+#endif
 
         float celleration = (Mathf.Abs(move) <= 0.01f ? m_deceleration : m_acceleration);
         celleration *= m_grounded ? m_groundCellerationMultilier : m_airCellerationMultilier;
