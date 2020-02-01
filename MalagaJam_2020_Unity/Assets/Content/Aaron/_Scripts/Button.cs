@@ -14,13 +14,13 @@ namespace MalagaJam.Object
     {
         //TODO Keep track which player already has pressed the button
 
-        [Header("Button Settings")] [SerializeField]
-        Door door;
-        [SerializeField] bool singlePlayer = true;
-        [SerializeField] Button otherButton;
+        [Header("Button Settings")]
+        bool singlePlayer = true;
+        public Door door;
+        public Button otherButton;
 
         public ButtonState buttonState;
-        
+
         protected override void Update()
         {
             ButtonBehaviour();
@@ -44,7 +44,11 @@ namespace MalagaJam.Object
 
         void SingleButtonBehaviour()
         {
-            if (Input.GetKeyDown(KeyCode.Space) && buttonState != ButtonState.locked)
+            #if UNITY_EDITOR
+            if ((Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(XboxButton.A)) && buttonState != ButtonState.locked)
+#else
+            if (XCI.GetButtonDown(XboxButton.A) && buttonState != ButtonState.locked)
+#endif
             {
                 buttonState = ButtonState.locked;
                 door.UnlockDoor();
