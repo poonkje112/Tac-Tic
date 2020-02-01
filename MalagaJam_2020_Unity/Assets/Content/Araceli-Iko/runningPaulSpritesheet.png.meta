@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 322bd25b9295a5e4fa87bcc68d3bc943
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1373071821040920454
+    second: runningPaulSpritesheet_0
+  - first:
+      213: -1107810107312850245
+    second: runningPaulSpritesheet_1
+  - first:
+      213: 5387000529286714509
+    second: runningPaulSpritesheet_2
+  - first:
+      213: 5862242064030278561
+    second: runningPaulSpritesheet_3
+  - first:
+      213: -1768904672968700548
+    second: runningPaulSpritesheet_4
+  - first:
+      213: 2708418719202972831
+    second: runningPaulSpritesheet_5
+  - first:
+      213: -4322325559130242002
+    second: runningPaulSpritesheet_6
+  - first:
+      213: -2533621883779714151
+    second: runningPaulSpritesheet_7
+  - first:
+      213: -6580530605457002538
+    second: runningPaulSpritesheet_8
+  - first:
+      213: -2866203794249460186
+    second: runningPaulSpritesheet_9
+  - first:
+      213: 5402768503885243736
+    second: runningPaulSpritesheet_10
+  - first:
+      213: -14512014644694330
+    second: runningPaulSpritesheet_11
+  - first:
+      213: -3764131602174954461
+    second: runningPaulSpritesheet_12
+  - first:
+      213: 4880739860561335617
+    second: runningPaulSpritesheet_13
+  - first:
+      213: 4913691191074265701
+    second: runningPaulSpritesheet_14
+  - first:
+      213: 4201191474232912762
+    second: runningPaulSpritesheet_15
+  - first:
+      213: 3027136690855874060
+    second: runningPaulSpritesheet_16
+  - first:
+      213: 2872087661123079678
+    second: runningPaulSpritesheet_17
+  - first:
+      213: 2519807903693766077
+    second: runningPaulSpritesheet_18
+  - first:
+      213: 1426351117203701802
+    second: runningPaulSpritesheet_19
+  - first:
+      213: 8978209015653683443
+    second: runningPaulSpritesheet_20
+  - first:
+      213: 3563882281708975594
+    second: runningPaulSpritesheet_21
+  - first:
+      213: 3465422123842289613
+    second: runningPaulSpritesheet_22
+  - first:
+      213: -5951875189783557610
+    second: runningPaulSpritesheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5280
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3801843b48d86f469e0dd4784f95c4a
+      internalID: -1373071821040920454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 5280
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3cdbf16f1422344bafca0cd9101c10
+      internalID: -1107810107312850245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5280
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f71c5794617d4b90afb4370510d41
+      internalID: 5387000529286714509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 5280
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bef674f9bf2ca4283e9775baf250ee
+      internalID: 5862242064030278561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4224
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3558142dd3ae84abb90f926724d152
+      internalID: -1768904672968700548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4224
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cc00ec30562e439943c0d58670d44
+      internalID: 2708418719202972831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4224
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43604a65825009f40832a988b0a2b3a5
+      internalID: -4322325559130242002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 4224
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4442a8cb32f311f45a9938ce100198de
+      internalID: -2533621883779714151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3168
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e437ce4e101e3da4abe9aabd5fe3308b
+      internalID: -6580530605457002538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3168
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0363b252c697aa46bd359534c02870b
+      internalID: -2866203794249460186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3168
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcbd0b7525efc5478a640d121c001a8
+      internalID: 5402768503885243736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 3168
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4272a5ac9dad27b409c71976c65faad7
+      internalID: -14512014644694330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fa1f00c6c524547b73c8ae9afbd0a1
+      internalID: -3764131602174954461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2112
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651ae7aa31165f4584fe2957d5f70ee
+      internalID: 4880739860561335617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2112
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffcc389a9ae0a542b66bd09742d0ba5
+      internalID: 4913691191074265701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2112
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec31175a2f5e1744596f3202e0a9b083
+      internalID: 4201191474232912762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc0f87eed65b9549bd211e29808ba90
+      internalID: 3027136690855874060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1056
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9886a407ec4aba64581b669b5f63cbff
+      internalID: 2872087661123079678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1056
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c892779c7e14d498c88e3cff867210
+      internalID: 2519807903693766077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1056
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4671748346509764dad668eda9651ce4
+      internalID: 1426351117203701802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6243b4aa5cb3c5e4c840286bd744ba19
+      internalID: 8978209015653683443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc4fc27eda2ca1419612199daa20259
+      internalID: 3563882281708975594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ffe5fa22e12c49b5ecd977dc60cd3
+      internalID: 3465422123842289613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningPaulSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 1125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da495b76d15e842acf561731e52d3c
+      internalID: -5951875189783557610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

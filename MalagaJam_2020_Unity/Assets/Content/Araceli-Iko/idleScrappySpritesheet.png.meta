@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 870a2e2fde2336c4eb6ad0dd78e4f791
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4275931027678859620
+    second: idleScrappySpritesheet_0
+  - first:
+      213: 2570032724984093921
+    second: idleScrappySpritesheet_1
+  - first:
+      213: -5022911054725769180
+    second: idleScrappySpritesheet_2
+  - first:
+      213: -5574304908198783054
+    second: idleScrappySpritesheet_3
+  - first:
+      213: -543465515945435210
+    second: idleScrappySpritesheet_4
+  - first:
+      213: -3791210543919091163
+    second: idleScrappySpritesheet_5
+  - first:
+      213: 558732067525209752
+    second: idleScrappySpritesheet_6
+  - first:
+      213: -3085074541912328509
+    second: idleScrappySpritesheet_7
+  - first:
+      213: -5148410159392113477
+    second: idleScrappySpritesheet_8
+  - first:
+      213: 5667877393307136102
+    second: idleScrappySpritesheet_9
+  - first:
+      213: 2047316940606569987
+    second: idleScrappySpritesheet_10
+  - first:
+      213: -6585857943627905795
+    second: idleScrappySpritesheet_11
+  - first:
+      213: -1645060397804482687
+    second: idleScrappySpritesheet_12
+  - first:
+      213: 1445360521487982508
+    second: idleScrappySpritesheet_13
+  - first:
+      213: 886470446150974766
+    second: idleScrappySpritesheet_14
+  - first:
+      213: 3226138106632401623
+    second: idleScrappySpritesheet_15
+  - first:
+      213: -962153592645973759
+    second: idleScrappySpritesheet_16
+  - first:
+      213: 7225836522851403551
+    second: idleScrappySpritesheet_17
+  - first:
+      213: 1894752479751869772
+    second: idleScrappySpritesheet_18
+  - first:
+      213: -280531069690909537
+    second: idleScrappySpritesheet_19
+  - first:
+      213: 47700497941011131
+    second: idleScrappySpritesheet_20
+  - first:
+      213: -3232938499160394669
+    second: idleScrappySpritesheet_21
+  - first:
+      213: 7191958047282284088
+    second: idleScrappySpritesheet_22
+  - first:
+      213: -5478033125044375234
+    second: idleScrappySpritesheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5195
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd5a99aa47f0e94089afb04cafc9744
+      internalID: -4275931027678859620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 5195
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0232221416c1b39479e6b8a84864e2a5
+      internalID: 2570032724984093921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 5195
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379839865e6cf954885739e5044a9551
+      internalID: -5022911054725769180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 5195
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164f81a4f08f5348a66cfc46edbe197
+      internalID: -5574304908198783054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4156
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f29415a3bc8d24ca1c07d4e3d1822a
+      internalID: -543465515945435210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 4156
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a710187373ea3419e48dbd1bf985e5
+      internalID: -3791210543919091163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 4156
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fbbef810377b447a307d2d347b348f
+      internalID: 558732067525209752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 4156
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f160e97d7a64004ea42fcffc905a666
+      internalID: -3085074541912328509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3117
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4a05877de651b48bb1de451df8b749
+      internalID: -5148410159392113477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 3117
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b3408f966a764fb97205e50be287f
+      internalID: 5667877393307136102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 3117
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0b49bbd14eef14d8c3ef6faf917e6b
+      internalID: 2047316940606569987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 3117
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbe370964fdada4d915bd768227ccd5
+      internalID: -6585857943627905795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2078
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ea4ef143c6c0498f6adfe409b94bb
+      internalID: -1645060397804482687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 2078
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a888b8d4e0c2884286e67ae8c740cac
+      internalID: 1445360521487982508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2078
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d559ff7f76c9a944a441d89486a5ccf
+      internalID: 886470446150974766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2078
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8892c2afa00ea2145af4a64341fd05b3
+      internalID: 3226138106632401623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1039
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440f3f9f877d4a428bc2233affe14fc
+      internalID: -962153592645973759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1039
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d875f8ca7773ec94b9ed84943fc3e18b
+      internalID: 7225836522851403551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1039
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae1dd3edce757e40987cd66f6f087aa
+      internalID: 1894752479751869772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 1039
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e13547777f6cb479372da3ccb225b6
+      internalID: -280531069690909537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93530ef5030e12c4999a625f76ecc8b4
+      internalID: 47700497941011131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2887d207f2b414db9bcdadf177e1f8
+      internalID: -3232938499160394669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb458be22472c649956f22312d30651
+      internalID: 7191958047282284088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleScrappySpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 0
+        width: 858
+        height: 1039
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6df19eee8addb48ac4ce3c4e5ae54c
+      internalID: -5478033125044375234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,5 @@
-using System;
 using UnityEngine;
-using UnityEngine.Events;
+using XboxCtrlrInput;
 
 namespace MalagaJam.Object
 {
@@ -15,10 +14,10 @@ namespace MalagaJam.Object
     {
         //TODO Keep track which player already has pressed the button
 
-        [Header("Button Settings")] 
-        [SerializeField] bool singlePlayer = true;
-        [SerializeField] Button otherButton;
-        [SerializeField] UnityEvent onPressedEvent;
+        [Header("Button Settings")]
+        bool singlePlayer = true;
+        public Door door;
+        public Button otherButton;
 
         public ButtonState buttonState;
 
@@ -30,7 +29,7 @@ namespace MalagaJam.Object
 
         void ButtonBehaviour()
         {
-            if (ObjectsInRange.Count > 0)
+            if (ObjectsInRange.Count > 0 && objectRepairState == ObjectRepairState.Repaired)
             {
                 if (singlePlayer)
                 {
@@ -45,10 +44,14 @@ namespace MalagaJam.Object
 
         void SingleButtonBehaviour()
         {
-            if (Input.GetKeyDown(KeyCode.Space) && buttonState != ButtonState.locked)
+            #if UNITY_EDITOR
+            if ((Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(XboxButton.A)) && buttonState != ButtonState.locked)
+#else
+            if (XCI.GetButtonDown(XboxButton.A) && buttonState != ButtonState.locked)
+#endif
             {
                 buttonState = ButtonState.locked;
-                onPressedEvent?.Invoke();
+                door.UnlockDoor();
             }
         }
 
@@ -72,7 +75,7 @@ namespace MalagaJam.Object
 
             if (buttonState == ButtonState.pressed && otherButton.buttonState == ButtonState.pressed)
             {
-                onPressedEvent?.Invoke();
+                door.UnlockDoor();
                 buttonState = ButtonState.locked;
                 _Timer = 0;
             }
@@ -87,8 +90,27 @@ namespace MalagaJam.Object
         void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.cyan;
+            Vector3 curPos = transform.position;
+            if (otherButton != null)
+            {
+                Vector3 otherCurPos = otherButton.transform.position;
+                Vector3 center = Vector3.zero;
 
-            Gizmos.DrawLine(transform.position, otherButton.transform.position);
+                center.x = curPos.x + (otherCurPos.x - curPos.x) / 2;
+                center.y = curPos.y + (otherCurPos.y - curPos.y) / 2;;
+
+                Gizmos.DrawLine(curPos, otherCurPos);
+                
+                Gizmos.color = Color.green;
+                if (door != null)
+                {
+                    Gizmos.DrawLine(center, door.transform.position);
+                }
+            }
+            else if (door != null)
+            {
+                Gizmos.DrawLine(curPos, door.transform.position);
+            }
         }
     }
 }
