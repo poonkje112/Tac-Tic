@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
         float bottomY = transform.position.y - m_collider.size.y / 2f;
         float groundDistance = bottomY - hit.point.y;
 
-        if ((XCI.GetButtonDown(XboxButton.A, m_controller) || (Input.GetAxisRaw("Vertical") > 0)) && groundDistance <= m_jumpGroundDistance)
+        if ((XCI.GetButtonDown(XboxButton.A, m_controller) || (Input.GetKeyDown(KeyCode.Space))) && groundDistance <= m_jumpGroundDistance)
         {
             m_velocity.y = m_jumpForce;
         }
