@@ -75,7 +75,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.125, y: 1.0901349}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_maxSpeed: 7
   m_gravity: 35
   m_controller: 1
-  m_jumpForce: 20
+  m_jumpForce: 15
   m_castDistance: 5
   m_jumpGroundDistance: 0.3
   m_groundedDistance: 0.01

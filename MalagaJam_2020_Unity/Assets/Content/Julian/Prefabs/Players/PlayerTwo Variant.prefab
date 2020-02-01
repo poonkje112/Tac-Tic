@@ -7,16 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1994569465709913401, guid: e657d031eb5b29c4a94d40c18a139e31,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6422238004070497221, guid: 22aaeb71df0e8de459241b776d6f3d2f,
+        type: 3}
     - target: {fileID: 1994569467556515107, guid: e657d031eb5b29c4a94d40c18a139e31,
         type: 3}
       propertyPath: m_Name
       value: PlayerTwo
       objectReference: {fileID: 0}
-    - target: {fileID: 1994569467556515107, guid: e657d031eb5b29c4a94d40c18a139e31,
+    - target: {fileID: 1994569467556515108, guid: e657d031eb5b29c4a94d40c18a139e31,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4b5cff579853877458d0498f7bba7cfc, type: 2}
     - target: {fileID: 1994569467556515110, guid: e657d031eb5b29c4a94d40c18a139e31,
         type: 3}
       propertyPath: m_LocalPosition.x

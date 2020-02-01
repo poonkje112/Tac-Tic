@@ -1,1 +1,703 @@
+fileFormatVersion: 2
+guid: 75f534cd013a5554baf58e3c2c4c258b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1862743011188873958
+    second: runningScrappySpritesheet_0
+  - first:
+      213: 3182008850579198975
+    second: runningScrappySpritesheet_1
+  - first:
+      213: -2091491158091331760
+    second: runningScrappySpritesheet_2
+  - first:
+      213: -7603127937771218251
+    second: runningScrappySpritesheet_3
+  - first:
+      213: -2515926414825193414
+    second: runningScrappySpritesheet_4
+  - first:
+      213: -6785217734982406132
+    second: runningScrappySpritesheet_5
+  - first:
+      213: 7121063099084653287
+    second: runningScrappySpritesheet_6
+  - first:
+      213: 90669446682145290
+    second: runningScrappySpritesheet_7
+  - first:
+      213: -5223383264398968142
+    second: runningScrappySpritesheet_8
+  - first:
+      213: -2275713918804115939
+    second: runningScrappySpritesheet_9
+  - first:
+      213: 5478288407334552291
+    second: runningScrappySpritesheet_10
+  - first:
+      213: -2205586796351511643
+    second: runningScrappySpritesheet_11
+  - first:
+      213: 6254688351092715224
+    second: runningScrappySpritesheet_12
+  - first:
+      213: -4790044822649284005
+    second: runningScrappySpritesheet_13
+  - first:
+      213: -8716989827151287012
+    second: runningScrappySpritesheet_14
+  - first:
+      213: 1407844110705458698
+    second: runningScrappySpritesheet_15
+  - first:
+      213: 4267612424339217358
+    second: runningScrappySpritesheet_16
+  - first:
+      213: 7425324367511070094
+    second: runningScrappySpritesheet_17
+  - first:
+      213: 3610996565982766124
+    second: runningScrappySpritesheet_18
+  - first:
+      213: -227780107809730829
+    second: runningScrappySpritesheet_19
+  - first:
+      213: 8982263370076436434
+    second: runningScrappySpritesheet_20
+  - first:
+      213: -3763558265762630159
+    second: runningScrappySpritesheet_21
+  - first:
+      213: 5885742967503511766
+    second: runningScrappySpritesheet_22
+  - first:
+      213: 6600511985155395579
+    second: runningScrappySpritesheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5450
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbdc00811200464ebe8bf6334a7e44f
+      internalID: -1862743011188873958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 5450
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bac172064d5a364b8310169f6cef300
+      internalID: 3182008850579198975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5450
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04469b5517a52b944b90bbedfb6586e9
+      internalID: -2091491158091331760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 5450
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42ea9dc0f52ee4b9d8ee59b1bcd6f8
+      internalID: -7603127937771218251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4360
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5407a69419e79844902291cd26007e8
+      internalID: -2515926414825193414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4360
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafe3ba0e001a5b418c64f0355bb5e13
+      internalID: -6785217734982406132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4360
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46e7ce38078a3e458520c1cc650a7af
+      internalID: 7121063099084653287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 4360
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6219e6daa5489a843a6506a83fe2af4c
+      internalID: 90669446682145290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3270
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a2d0fdd2e7064b9329fbda649dc61
+      internalID: -5223383264398968142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3270
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852f370c82d40f949993d38fa933444a
+      internalID: -2275713918804115939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3270
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff899b5723c72554d8e89fb29da86f3f
+      internalID: 5478288407334552291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 3270
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a71f4676b19d6418ce30d0b33705e5
+      internalID: -2205586796351511643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2180
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f41091ba0b44b43a78ece617b44548
+      internalID: 6254688351092715224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2180
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25ae496f41624a46a01f284e0b97f80
+      internalID: -4790044822649284005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2180
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f90b2c9eb05242966b255af52effd
+      internalID: -8716989827151287012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2180
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e39ddefbf05eb34c985b047952cc94c
+      internalID: 1407844110705458698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0c956e63cb0d469a8bb4a577c5468
+      internalID: 4267612424339217358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1090
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8003183b522d3489650d314aa4db41
+      internalID: 7425324367511070094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1090
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2401c9bd0f3c7814eafa3c8a3d10ae94
+      internalID: 3610996565982766124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1090
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f2317fd09aa7c4f8548b123091ed09
+      internalID: -227780107809730829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9a7e4a25fc6147b0b5993fc8bf2ea
+      internalID: 8982263370076436434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee61c3d2bfcc0394e939b07f52ff7c72
+      internalID: -3763558265762630159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692068bcc1b12034ebb3ea42f045a067
+      internalID: 5885742967503511766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningScrappySpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 1125
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e218740ba5ef9924592688bca27be2ac
+      internalID: 6600511985155395579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f833dce36a316e14ab20a7d6db7befcf
+    internalID: 0
     vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
