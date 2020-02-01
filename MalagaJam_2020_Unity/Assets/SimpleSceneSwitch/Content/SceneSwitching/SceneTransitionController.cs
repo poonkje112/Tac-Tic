@@ -48,7 +48,7 @@ public class SceneTransitionController : MonoBehaviour
         else
         {
             Debug.Log(scene.ToString() + " Added Queue");
-            m_sceneLoadQueue.Enqueue(scene);
+            //m_sceneLoadQueue.Enqueue(scene);
         }
     }
 
