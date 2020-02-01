@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using XboxCtrlrInput;
 
 [RequireComponent(typeof(Rigidbody2D)),RequireComponent(typeof(CapsuleCollider2D))]
@@ -41,6 +39,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+
         RaycastHit2D hit = Physics2D.CircleCast(transform.position, (m_collider.size.x / 2f) * m_radius, Vector2.down, m_castDistance, m_groundLayer);
 
         float bottomY = transform.position.y - m_collider.size.y / 2f;
