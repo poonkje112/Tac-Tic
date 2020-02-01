@@ -34,7 +34,7 @@ namespace MalagaJam.Object
 
         void Start()
         {
-            if (!TryGetComponent<SpriteRenderer>(out _Sr))
+            if (!TryGetComponent(out _Sr))
             {
                 Debug.LogError("This object does not have an spriterenderer!", gameObject);
             }
@@ -46,7 +46,7 @@ namespace MalagaJam.Object
 
         protected virtual void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(repairButton, XboxController.Any))
+            if (Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController()))
             {
                 Repair();
             }

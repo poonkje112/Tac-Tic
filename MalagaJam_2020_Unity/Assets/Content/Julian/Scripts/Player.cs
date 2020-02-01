@@ -4,9 +4,7 @@ using XboxCtrlrInput;
 [RequireComponent(typeof(Rigidbody2D)),RequireComponent(typeof(CapsuleCollider2D)),RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-
-    [Header("Movement")]
-    [SerializeField] private float m_acceleration;
+    [Header("Movement")] [SerializeField] private float m_acceleration;
     [SerializeField] private float m_deceleration;
     [SerializeField] private float m_groundCellerationMultilier;
     [SerializeField] private float m_airCellerationMultilier;
@@ -15,19 +13,18 @@ public class Player : MonoBehaviour
     [SerializeField] private XboxController m_controller;
     private Vector2 m_velocity;
 
-    [Header("Jump")]
-    [SerializeField] private float m_jumpForce;
+    [Header("Jump")] [SerializeField] private float m_jumpForce;
 
-    [Header("Ground Check")]
-    [SerializeField] private float m_castDistance;
+    [Header("Ground Check")] [SerializeField]
+    private float m_castDistance;
+
     [SerializeField] private float m_jumpGroundDistance;
     [SerializeField] private float m_groundedDistance;
     [SerializeField] private float m_radius;
     [SerializeField] private LayerMask m_groundLayer;
     private bool m_grounded;
 
-    [Header("Components")]
-    private Rigidbody2D m_rigidbody;
+    [Header("Components")] private Rigidbody2D m_rigidbody;
     private CapsuleCollider2D m_collider;
     private Animator m_animator;
 
@@ -81,6 +78,8 @@ public class Player : MonoBehaviour
 
 #if UNITY_EDITOR
         move = Input.GetAxisRaw("Horizontal") * m_maxSpeed;
+        if (move == 0)
+            move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 #else
         move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 #endif
@@ -106,6 +105,8 @@ public class Player : MonoBehaviour
         m_rigidbody.velocity = m_velocity;
     }
 
+    public XboxController GetController()
+    {
+        return m_controller;
+    }
 }
-
-
