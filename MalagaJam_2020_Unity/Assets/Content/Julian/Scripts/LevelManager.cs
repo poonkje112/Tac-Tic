@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
         m_state = LevelSate.finish;
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         if (m_state == LevelSate.moving)
             m_camera.transform.position = Vector3.MoveTowards(m_camera.transform.position, new Vector3(m_finalPos.x,m_finalPos.y,m_camera.transform.position.z), m_levelSpeed * Time.deltaTime);
@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
         if(m_player.transform.position.y <= m_playerDeathHeight + m_camera.transform.position.y)
         {
             m_state = LevelSate.dead;
-            Debug.Log("Death");
+            //Debug.Log("Death");
         }
 
         Debug.DrawLine(new Vector3(0, m_playerWinHeight, 0) + Vector3.left * 10f, new Vector3(0, m_playerWinHeight, 0) + Vector3.right * 10f, Color.green);
