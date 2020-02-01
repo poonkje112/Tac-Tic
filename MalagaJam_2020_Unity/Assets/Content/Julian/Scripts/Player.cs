@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 using XboxCtrlrInput;
 
-[RequireComponent(typeof(Rigidbody2D)),RequireComponent(typeof(CapsuleCollider2D))]
+[RequireComponent(typeof(Rigidbody2D)), RequireComponent(typeof(CapsuleCollider2D))]
 public class Player : MonoBehaviour
 {
-
-    [Header("Movement")]
-    [SerializeField] private float m_acceleration;
+    [Header("Movement")] [SerializeField] private float m_acceleration;
     [SerializeField] private float m_deceleration;
     [SerializeField] private float m_groundCellerationMultilier;
     [SerializeField] private float m_airCellerationMultilier;
@@ -15,19 +13,18 @@ public class Player : MonoBehaviour
     [SerializeField] private XboxController m_controller;
     private Vector2 m_velocity;
 
-    [Header("Jump")]
-    [SerializeField] private float m_jumpForce;
+    [Header("Jump")] [SerializeField] private float m_jumpForce;
 
-    [Header("Ground Check")]
-    [SerializeField] private float m_castDistance;
+    [Header("Ground Check")] [SerializeField]
+    private float m_castDistance;
+
     [SerializeField] private float m_jumpGroundDistance;
     [SerializeField] private float m_groundedDistance;
     [SerializeField] private float m_radius;
     [SerializeField] private LayerMask m_groundLayer;
     private bool m_grounded;
 
-    [Header("Components")]
-    private Rigidbody2D m_rigidbody;
+    [Header("Components")] private Rigidbody2D m_rigidbody;
     private CapsuleCollider2D m_collider;
 
 
@@ -39,13 +36,19 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-
-        RaycastHit2D hit = Physics2D.CircleCast(transform.position, (m_collider.size.x / 2f) * m_radius, Vector2.down, m_castDistance, m_groundLayer);
+        RaycastHit2D hit = Physics2D.CircleCast(transform.position, (m_collider.size.x / 2f) * m_radius, Vector2.down,
+            m_castDistance, m_groundLayer);
 
         float bottomY = transform.position.y - m_collider.size.y / 2f;
         float groundDistance = bottomY - hit.point.y;
 
-        if ((XCI.GetButtonDown(XboxButton.A, m_controller) || (Input.GetKeyDown(KeyCode.Space))) && groundDistance <= m_jumpGroundDistance)
+        // This is ugly af but in case we forget to remove this before release this will prevent it from getting into the build
+        #if UNITY_EDITOR
+        if ((XCI.GetButtonDown(XboxButton.A, m_controller) || (Input.GetKeyDown(KeyCode.Space))) &&
+            groundDistance <= m_jumpGroundDistance)
+        #else
+        if(groundDistance <= m_jumpGroundDistance)
+#endif
         {
             m_velocity.y = m_jumpForce;
         }
@@ -66,6 +69,8 @@ public class Player : MonoBehaviour
         float move;
 #if UNITY_EDITOR
         move = Input.GetAxisRaw("Horizontal") * m_maxSpeed;
+        if (move == 0)
+            move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 #else
         move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 #endif
@@ -77,6 +82,8 @@ public class Player : MonoBehaviour
         m_rigidbody.velocity = m_velocity;
     }
 
+    public XboxController GetController()
+    {
+        return m_controller;
+    }
 }
-
-
