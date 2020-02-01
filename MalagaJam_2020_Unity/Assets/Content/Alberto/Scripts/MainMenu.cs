@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    private void Start()
+
+    public void Lore()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 0)
-            SceneManager.LoadScene(0);
+        SceneLoader.LoadSceneTransition(Scenes.LoreTextScreen);
     }
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneLoader.LoadSceneTransition(Scenes.JulianScene);
     }
 }

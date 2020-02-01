@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -44,8 +45,11 @@ public class LevelManager : MonoBehaviour
         Debug.DrawLine(new Vector3(0, m_playerDeathHeight + m_camera.transform.position.y, 0) + Vector3.left * 10f, new Vector3(0, m_playerDeathHeight + m_camera.transform.position.y, 0) + Vector3.right * 10f, Color.red);
         if(m_player.transform.position.y <= m_playerDeathHeight + m_camera.transform.position.y)
         {
-            m_state = LevelSate.dead;
-            //Debug.Log("Death");
+            if (m_state != LevelSate.dead)
+            {
+                m_state = LevelSate.dead;
+                SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+            }
         }
 
         Debug.DrawLine(new Vector3(0, m_playerWinHeight, 0) + Vector3.left * 10f, new Vector3(0, m_playerWinHeight, 0) + Vector3.right * 10f, Color.green);
