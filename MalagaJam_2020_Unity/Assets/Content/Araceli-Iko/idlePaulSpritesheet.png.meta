@@ -1,7 +1,79 @@
 fileFormatVersion: 2
-guid: 201fce3326df8ca4282dc481e5b007f6
+guid: 22aaeb71df0e8de459241b776d6f3d2f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6422238004070497221
+    second: idlePaulSpritesheet_0
+  - first:
+      213: -4616792121211759122
+    second: idlePaulSpritesheet_1
+  - first:
+      213: 2142149774600440117
+    second: idlePaulSpritesheet_2
+  - first:
+      213: 4126937783289227801
+    second: idlePaulSpritesheet_3
+  - first:
+      213: 556642266073763495
+    second: idlePaulSpritesheet_4
+  - first:
+      213: 5535027128886317516
+    second: idlePaulSpritesheet_5
+  - first:
+      213: -2693495688825070338
+    second: idlePaulSpritesheet_6
+  - first:
+      213: 1828621478799296881
+    second: idlePaulSpritesheet_7
+  - first:
+      213: 5325115101087143519
+    second: idlePaulSpritesheet_8
+  - first:
+      213: -3067029303519269383
+    second: idlePaulSpritesheet_9
+  - first:
+      213: 3732028838488513017
+    second: idlePaulSpritesheet_10
+  - first:
+      213: 5585720553085916014
+    second: idlePaulSpritesheet_11
+  - first:
+      213: 2878898485859142173
+    second: idlePaulSpritesheet_12
+  - first:
+      213: 3283737608384891516
+    second: idlePaulSpritesheet_13
+  - first:
+      213: -2964560482956319590
+    second: idlePaulSpritesheet_14
+  - first:
+      213: 3465397494788261500
+    second: idlePaulSpritesheet_15
+  - first:
+      213: -2630672902726297557
+    second: idlePaulSpritesheet_16
+  - first:
+      213: -733070513173295554
+    second: idlePaulSpritesheet_17
+  - first:
+      213: 3184854978763985805
+    second: idlePaulSpritesheet_18
+  - first:
+      213: -1144441916718507563
+    second: idlePaulSpritesheet_19
+  - first:
+      213: 2806942758718520617
+    second: idlePaulSpritesheet_20
+  - first:
+      213: -2700167627052992599
+    second: idlePaulSpritesheet_21
+  - first:
+      213: 1533704542831537624
+    second: idlePaulSpritesheet_22
+  - first:
+      213: 6938708538269850458
+    second: idlePaulSpritesheet_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +112,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +142,549 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4855
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b81a8979ecbf14bab1be29cb76ae38
+      internalID: 6422238004070497221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 4855
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a828d63e3750b4099c91b1a7e9cb3c
+      internalID: -4616792121211759122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 4855
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30617d0be2061ad4aa68c9bbabbcf66a
+      internalID: 2142149774600440117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 4855
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b52034ab3f4f34289fb80ba7792f9d
+      internalID: 4126937783289227801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3884
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148f3252e45f13640bb63bc84fc8a24a
+      internalID: 556642266073763495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 3884
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afca692baf946484cbfe9273c0494d73
+      internalID: 5535027128886317516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 3884
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46050fd49ccd04244a659c3b7b865975
+      internalID: -2693495688825070338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 3884
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0952bbca8b3843949b4c24cb1a9fad65
+      internalID: 1828621478799296881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2913
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac650352b9344a458acf7c89db13449
+      internalID: 5325115101087143519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 2913
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26570b2b25b8d384393f76495ee46db8
+      internalID: -3067029303519269383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2913
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33bd739634d2f743a17352648c0b4e6
+      internalID: 3732028838488513017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2913
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29110ccbfb69e0b4c8e8c1d63d300b28
+      internalID: 5585720553085916014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1942
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c90c26068989748b1d559d54d79afe
+      internalID: 2878898485859142173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1942
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36b290ce90536b4e83b8fc537f53fa9
+      internalID: 3283737608384891516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1942
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87dfcd87f9c1494cbbd75058627b515
+      internalID: -2964560482956319590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 1942
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fa43b449d87f04b991732408704288
+      internalID: 3465397494788261500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 971
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8cfeb50c35aca42a1fa94875a11c49
+      internalID: -2630672902726297557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 971
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b8e5e72fe8fa144af98b863a57bf91
+      internalID: -733070513173295554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 971
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b7ec478a770d54cb2195b32543dac5
+      internalID: 3184854978763985805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 971
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca6785ea7350549b20722ac7c50f39
+      internalID: -1144441916718507563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77cb912f3b84b640ab0a172efab8904
+      internalID: 2806942758718520617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b9b5ebccbf7084282c430d5c23928f
+      internalID: -2700167627052992599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3def6cda5b84394db1f90b54b4080c5
+      internalID: 1533704542831537624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlePaulSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 0
+        width: 858
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a2f31d8571ebf4ea4819180884f707
+      internalID: 6938708538269850458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
