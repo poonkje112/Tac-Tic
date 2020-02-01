@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float m_maxSpeed;
     [SerializeField] private float m_gravity;
     [SerializeField] private XboxController m_controller;
+    [HideInInspector] public bool m_moveable = true;
     private Vector2 m_velocity;
 
     [Header("Jump")]
@@ -79,15 +80,18 @@ public class Player : MonoBehaviour
 
         float move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 
-        if (animatiorState != 2)
+        if (m_moveable)
         {
-            if (Mathf.Abs(move) > 0f)
+            if (animatiorState != 2)
             {
-                animatiorState = 1;
-            }
-            else
-            {
-                animatiorState = 0;
+                if (Mathf.Abs(move) > 0f)
+                {
+                    animatiorState = 1;
+                }
+                else
+                {
+                    animatiorState = 0;
+                }
             }
         }
 
