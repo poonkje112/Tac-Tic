@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using XboxCtrlrInput;
@@ -15,10 +14,7 @@ namespace MalagaJam.Object
     public class RepairBase : MonoBehaviour, IRepairable
     {
         /** TODO
-         * Set the list to use the player object instead of a GameObject
-         * When the player is done, grab the player controller id
          * Set the repairing to go on a timer?
-         * 
          */
 
         [Header("Object Settings")] [SerializeField]
@@ -34,7 +30,7 @@ namespace MalagaJam.Object
 
         void Start()
         {
-            if (!TryGetComponent<SpriteRenderer>(out _Sr))
+            if (!TryGetComponent(out _Sr))
             {
                 Debug.LogError("This object does not have an spriterenderer!", gameObject);
             }
@@ -46,7 +42,12 @@ namespace MalagaJam.Object
 
         protected virtual void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(repairButton, XboxController.Any))
+            // This is ugly af but in case we forget to remove this before release this will prevent it from getting into the build
+#if UNITY_EDITOR
+            if (Input.GetKeyDown(KeyCode.Space) || (ObjectsInRange.Count > 0 && XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController())))
+#else
+            if (Input.GetKeyDown(KeyCode.Space))
+#endif
             {
                 Repair();
             }

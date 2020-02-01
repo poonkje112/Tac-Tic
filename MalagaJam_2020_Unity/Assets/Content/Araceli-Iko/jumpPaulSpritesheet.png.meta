@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 8274f71eb234874489e09e2494b53b87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5447182123921068687
+    second: jumpPaulSpritesheet_0
+  - first:
+      213: -6649740455546889522
+    second: jumpPaulSpritesheet_1
+  - first:
+      213: -8164520689813011214
+    second: jumpPaulSpritesheet_2
+  - first:
+      213: 8239556846347728755
+    second: jumpPaulSpritesheet_3
+  - first:
+      213: 1055233391763522839
+    second: jumpPaulSpritesheet_4
+  - first:
+      213: -5449626562304168339
+    second: jumpPaulSpritesheet_5
+  - first:
+      213: 3762672881745585156
+    second: jumpPaulSpritesheet_6
+  - first:
+      213: -2759898138190570930
+    second: jumpPaulSpritesheet_7
+  - first:
+      213: -4320142391573192826
+    second: jumpPaulSpritesheet_8
+  - first:
+      213: -5473894600776907455
+    second: jumpPaulSpritesheet_9
+  - first:
+      213: 4517724218956675202
+    second: jumpPaulSpritesheet_10
+  - first:
+      213: -7038631112232757519
+    second: jumpPaulSpritesheet_11
+  - first:
+      213: 6786678670588179870
+    second: jumpPaulSpritesheet_12
+  - first:
+      213: 4791686819749894460
+    second: jumpPaulSpritesheet_13
+  - first:
+      213: -4803230790046698084
+    second: jumpPaulSpritesheet_14
+  - first:
+      213: -4909932471717451695
+    second: jumpPaulSpritesheet_15
+  - first:
+      213: 6212750356799569958
+    second: jumpPaulSpritesheet_16
+  - first:
+      213: -7667264695433428046
+    second: jumpPaulSpritesheet_17
+  - first:
+      213: 6727474258212552783
+    second: jumpPaulSpritesheet_18
+  - first:
+      213: -2640849025104035573
+    second: jumpPaulSpritesheet_19
+  - first:
+      213: -8580923657479363627
+    second: jumpPaulSpritesheet_20
+  - first:
+      213: 3316018580068429060
+    second: jumpPaulSpritesheet_21
+  - first:
+      213: 5691632111789659479
+    second: jumpPaulSpritesheet_22
+  - first:
+      213: 97649523949370913
+    second: jumpPaulSpritesheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5535
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa513ba8852ac8d44bfc667fa6280371
+      internalID: -5447182123921068687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 5535
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8e573796aabf545b6c0b4c9d12b321
+      internalID: -6649740455546889522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 5535
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01076bdb0161344d9e159b03d4ea355
+      internalID: -8164520689813011214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 5535
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c9941bcb4ca4d47907a161ff47e6e0
+      internalID: 8239556846347728755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4428
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d56334d82f6db4d9154ca385f0c422
+      internalID: 1055233391763522839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 4428
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1033173fe59fcd749b78b127c09aa34f
+      internalID: -5449626562304168339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 4428
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeb88c9178728e4689a17c1715039d5
+      internalID: 3762672881745585156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 4428
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55bed4af9a572b4b9f8bf97b03b89f6
+      internalID: -2759898138190570930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3321
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aad0a1aca5c5e4084354685e1cf9dd
+      internalID: -4320142391573192826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 3321
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcebe5ba591230743aca2f3b68354fe7
+      internalID: -5473894600776907455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 3321
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5177d773e44f45a62c81698e8849e
+      internalID: 4517724218956675202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 3321
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e499824f2475c834aa2ee2801bd53049
+      internalID: -7038631112232757519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2214
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccae80a6b3f32641b13d4f1bca1c1f8
+      internalID: 6786678670588179870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2214
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f2b3309b1607040ade19d66a249e1d
+      internalID: 4791686819749894460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 2214
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd6c124a8a190345a8c247ed224cbf2
+      internalID: -4803230790046698084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 2214
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d773cf661ef0d1a47adf2544a01881b3
+      internalID: -4909932471717451695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09252a23c06b8e40b8f4ca99905c240
+      internalID: 6212750356799569958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1107
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be76a909165c60848b9eb3b59e55d591
+      internalID: -7667264695433428046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 1107
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8e6c85a825fd4a84f967bb8049a97
+      internalID: 6727474258212552783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 1107
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2df14c4ce117148ae71c7dfd729c04
+      internalID: -2640849025104035573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e905f827d6b749a32a9b5410c252c
+      internalID: -8580923657479363627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 0
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00a7f6a1577984f8d78d4ea2910fd9
+      internalID: 3316018580068429060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 0
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf77afe2db0b104fa520f6529fa8c90
+      internalID: 5691632111789659479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpPaulSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 0
+        width: 1434
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c32dd974a2b0f45abe83ee4278d787
+      internalID: 97649523949370913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
