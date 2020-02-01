@@ -11,10 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Content/Alberto/Scenes/Lore Text Screen.unity
     guid: 8ff6cd1411de84a47836322c679c88a3
-  - enabled: 0
-    path: Assets/Content/Alberto/Scenes/Playable Game Scene.unity
-    guid: 3dc762c61e1839a4bad7c3d4459853cd
   - enabled: 1
-    path: Assets/Content/Alberto/Scenes/TestingCameraScene.unity
-    guid: 492b69155cae49147b29474f70f190c6
+    path: Assets/Content/Julian/Scenes/JulianScene.unity
+    guid: 7558b0dc8ef006845b9499bbb7c9e95f
   m_configObjects: {}

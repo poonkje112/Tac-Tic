@@ -58,7 +58,6 @@ public class Player : MonoBehaviour
 
         if (XCI.GetButtonDown(XboxButton.A, m_controller) && groundDistance <= m_jumpGroundDistance && groundHit.collider != null)
         {
-            Debug.Log("JUMP");
             Debug.DrawLine(transform.position, transform.position + Vector3.up, Color.red, 5f);
             m_velocity.y = m_jumpForce;
         }

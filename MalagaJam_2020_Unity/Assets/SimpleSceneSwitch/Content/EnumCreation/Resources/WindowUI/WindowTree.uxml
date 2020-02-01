@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="index" style="flex-grow: 1; background-image: none; background-color: rgba(22, 20, 20, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); flex-shrink: 1; -unity-background-scale-mode: stretch-to-fill; opacity: 1;">
+        <Style src="SceneListItem.uss" />
+        <Style src="WindowStyle.uss" />
+        <ui:VisualElement name="screen" style="flex-grow: 1; left: 0; top: 0; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; opacity: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Button text="Create Asset" name="create-button" view-data-key="create-button" tooltip="Creates the enum asset from the build scenes" focusable="false" usage-hints="None" class="create-button" />
+            <ui:Label text="State: done" name="state" style="background-color: rgba(80, 202, 0, 0.78); -unity-text-align: middle-center; font-size: 21px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); -unity-font-style: bold; color: rgb(255, 255, 255); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; opacity: 1;" />
+            <ui:VisualElement name="scene-list-group" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; padding-top: 0; margin-top: 10px; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; flex-basis: initial; height: auto; max-height: none;">
+                <ui:VisualElement name="top" style="flex-shrink: 1; flex-grow: initial; background-color: rgb(40, 40, 40); height: initial; font-size: 4px; max-height: none;">
+                    <ui:VisualElement name="logo" style="background-image: resource('WindowUI/Sprites/buildLogo'); width: 20px; height: 20px; flex-grow: 0; left: 15px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 0; flex-shrink: 0; justify-content: flex-start; align-items: center; -unity-text-align: upper-center;">
+                        <ui:Label text="Scenes in build settings" name="scenes-in-build-settings-text" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 25px; width: 0; flex-shrink: 0; flex-grow: 0; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: middle-left; font-size: 14px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:ListView focusable="True" name="sceneBuild-list" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="scene-list-group" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; padding-top: 0; margin-top: 10px; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; position: relative;">
+                <ui:VisualElement name="top" style="flex-shrink: 1; flex-grow: 0; background-color: rgb(40, 40, 40); height: 30px; font-size: 4px;">
+                    <ui:VisualElement name="logo" style="background-image: resource('WindowUI/Sprites/File'); height: 20px; flex-grow: 0; left: 13px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 0; flex-shrink: 0; justify-content: flex-start; align-items: center; -unity-text-align: upper-center; position: absolute; width: 20px;">
+                        <ui:Label text="Scenes in enum file" name="scenes-in-build-settings-text" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 25px; width: 0; flex-shrink: 0; flex-grow: 0; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: middle-left; font-size: 14px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:ListView focusable="True" name="sceneEnum-list" style="flex-grow: 1; background-color: rgba(40, 40, 40, 0); margin-top: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; background-image: none;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

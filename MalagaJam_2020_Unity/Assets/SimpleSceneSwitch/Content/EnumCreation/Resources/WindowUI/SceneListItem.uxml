@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="index" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; flex-shrink: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <Style src="SceneListItem.uss" />
+        <ui:Label text="Main Scne" name="scene-name" style="height: 40px; -unity-text-align: middle-left; font-size: 25px; -unity-font-style: normal; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgba(40, 40, 40, 0.59); margin-left: 0; margin-right: 0; color: rgb(197, 197, 197);">
+            <ui:Label text="1" name="scene-number" style="-unity-text-align: middle-right; padding-left: 0; padding-right: 10px; padding-top: 0; padding-bottom: 0; margin-left: 0; -unity-font-style: italic; color: rgb(140, 140, 140); font-size: 25px; flex-grow: 1;" />
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
