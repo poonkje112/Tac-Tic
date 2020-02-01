@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using XboxCtrlrInput;
 
 [RequireComponent(typeof(Rigidbody2D)),RequireComponent(typeof(CapsuleCollider2D))]
 public class Player : MonoBehaviour
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float m_airCellerationMultilier;
     [SerializeField] private float m_maxSpeed;
     [SerializeField] private float m_gravity;
+    [SerializeField] private XboxController m_controller;
     private Vector2 m_velocity;
 
     [Header("Jump")]
@@ -39,13 +41,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-
         RaycastHit2D hit = Physics2D.CircleCast(transform.position, (m_collider.size.x / 2f) * m_radius, Vector2.down, m_castDistance, m_groundLayer);
 
         float bottomY = transform.position.y - m_collider.size.y / 2f;
         float groundDistance = bottomY - hit.point.y;
 
-        if (Input.GetKeyDown(KeyCode.Space) && groundDistance <= m_jumpGroundDistance)
+        if (XCI.GetButtonDown(XboxButton.A, m_controller) && groundDistance <= m_jumpGroundDistance)
         {
             m_velocity.y = m_jumpForce;
         }
@@ -64,7 +65,7 @@ public class Player : MonoBehaviour
         }
         
 
-        float move = Input.GetAxisRaw("Horizontal") * m_maxSpeed;
+        float move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 
         float celleration = (Mathf.Abs(move) <= 0.01f ? m_deceleration : m_acceleration);
         celleration *= m_grounded ? m_groundCellerationMultilier : m_airCellerationMultilier;
