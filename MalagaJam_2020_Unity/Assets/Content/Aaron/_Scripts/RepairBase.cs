@@ -5,7 +5,7 @@ using XboxCtrlrInput;
 
 namespace MalagaJam.Object
 {
-    enum ObjectRepairState
+    public enum ObjectRepairState
     {
         Destroyed,
         Repairing,
@@ -23,10 +23,26 @@ namespace MalagaJam.Object
 
         [Header("Object Settings")] [SerializeField]
         XboxButton repairButton; // Move this to a general Input script?
-        [Space] [Header("DEBUG")] [SerializeField]
-        ObjectRepairState objectRepairState;
 
-        protected readonly List<GameObject> ObjectsInRange = new List<GameObject>();
+        [SerializeField] Sprite brokenSprite, repairedSprite;
+
+        [Space] [Header("DEBUG")] [SerializeField]
+        protected ObjectRepairState objectRepairState;
+
+        protected readonly List<Player> ObjectsInRange = new List<Player>();
+        SpriteRenderer _Sr;
+
+        void Start()
+        {
+            if (!TryGetComponent<SpriteRenderer>(out _Sr))
+            {
+                Debug.LogError("This object does not have an spriterenderer!", gameObject);
+            }
+            else
+            {
+                _Sr.sprite = brokenSprite;
+            }
+        }
 
         protected virtual void Update()
         {
@@ -38,14 +54,22 @@ namespace MalagaJam.Object
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            ObjectsInRange.Add(other.gameObject);
-            print(ObjectsInRange.Count);
+            Player temp;
+            if (other.TryGetComponent(out temp))
+            {
+                ObjectsInRange.Add(temp);
+                print(ObjectsInRange.Count);
+            }
         }
 
         void OnTriggerExit2D(Collider2D other)
         {
-            ObjectsInRange.Remove(other.gameObject);
-            print(ObjectsInRange.Count);
+            Player temp;
+            if (other.TryGetComponent(out temp))
+            {
+                ObjectsInRange.Remove(temp);
+                print(ObjectsInRange.Count);
+            }
         }
 
         public virtual void Repair()
@@ -55,6 +79,7 @@ namespace MalagaJam.Object
 
             objectRepairState = ObjectRepairState.Repairing;
             objectRepairState = ObjectRepairState.Repaired;
+            _Sr.sprite = repairedSprite;
         }
     }
 }
