@@ -62,7 +62,6 @@ public class Player : MonoBehaviour
                 m_grounded = false;
             }
         }
-        
 
         float move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
 

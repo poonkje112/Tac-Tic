@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Player m_player;
     [SerializeField] private float m_playerDeathHeight;
     [SerializeField] private float m_playerWinHeight;
+    [SerializeField] private TextMeshProUGUI m_text;
     private bool m_moving;
     private LevelSate m_state;
 
@@ -59,9 +61,10 @@ public class LevelManager : MonoBehaviour
         for (int i = 3; i > 0; i--)
         {
             Debug.Log(i);
+            m_text.text = i.ToString();
             yield return new WaitForSeconds(1f);
         }
-        Debug.Log("Go");
+        m_text.enabled = false;
         m_state = LevelSate.moving;
     }
 
