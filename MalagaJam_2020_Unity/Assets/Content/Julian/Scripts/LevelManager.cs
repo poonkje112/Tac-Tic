@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private float m_playerDeathHeight;
     [SerializeField] private float m_playerWinHeight;
     [SerializeField] private TextMeshProUGUI m_text;
+    [SerializeField] private Animator m_monsterAnimatior;
     private bool m_moving;
     private LevelSate m_state;
 
@@ -40,18 +41,20 @@ public class LevelManager : MonoBehaviour
     }
     private void LateUpdate()
     {
+        if(m_state == LevelSate.moving || m_state == LevelSate.win)
+            m_camera.transform.position = Vector3.MoveTowards(m_camera.transform.position, new Vector3(m_finalPos.x, m_finalPos.y, m_camera.transform.position.z), m_levelSpeed * Time.deltaTime);
         if (m_state == LevelSate.moving)
-            m_camera.transform.position = Vector3.MoveTowards(m_camera.transform.position, new Vector3(m_finalPos.x,m_finalPos.y,m_camera.transform.position.z), m_levelSpeed * Time.deltaTime);
-
-
-        for (int i = 0; i < m_player.Length; i++)
         {
-            if (m_player[i].transform.position.y <= m_playerDeathHeight + m_camera.transform.position.y)
-                if (m_state != LevelSate.lose)
-                    OnLose();
 
-            if (m_player[i].transform.position.y >= m_playerWinHeight)
-                OnWin();
+            for (int i = 0; i < m_player.Length; i++)
+            {
+                if (m_player[i].transform.position.y <= m_playerDeathHeight + m_camera.transform.position.y)
+                    if (m_state != LevelSate.lose)
+                        OnLose();
+
+                if (m_player[i].transform.position.y >= m_playerWinHeight)
+                    OnWin();
+            }
         }
     }
 
@@ -69,7 +72,14 @@ public class LevelManager : MonoBehaviour
     private void OnLose()
     {
         m_state = LevelSate.lose;
-        //SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+        m_monsterAnimatior.SetTrigger("lose");
+        StartCoroutine(LoadLose());
+    }
+
+    private IEnumerator LoadLose()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneLoader.LoadSceneTransition(Scenes.MenuScene);
     }
 
     private void OnWin()

@@ -18,7 +18,7 @@ namespace MalagaJam.Object
 
         [Header("Button Settings")] 
         [SerializeField] Slider slider;
-        [SerializeField] bool singlePlayer = true;
+//        [SerializeField] bool singlePlayer = true;
         public Door door;
         public Generator otherGenerator;
         bool _SkillCheck = false;
@@ -54,9 +54,8 @@ namespace MalagaJam.Object
                 {
                     if (slider.value > 0.33 && slider.value < 0.66 && _SkillCheckGoing)
                     {
-                        if (singlePlayer)
-                            door.UnlockDoor();
-
+//                        door.UnlockDoor();
+print("AAAAs");
                         ResetSkillcheck();
                         generatorState = GeneratorState.finished;
                         _T = _TimeOut;
@@ -103,21 +102,16 @@ namespace MalagaJam.Object
             _T = 0;
             _SkillCheck = false;
             _SkillCheckGoing = false;
-            generatorState = GeneratorState.idle;
+            
+            if(generatorState != GeneratorState.finished)
+                generatorState = GeneratorState.idle;
         }
 
         void ButtonBehaviour()
         {
             if (ObjectsInRange.Count > 0 && objectRepairState == ObjectRepairState.Repaired && _Cooldown <= 0)
             {
-                if (singlePlayer)
-                {
-                    SingleButtonBehaviour();
-                }
-                else
-                {
-                    MultiButtonBehaviour();
-                }
+                SingleButtonBehaviour();
             }
         }
 
@@ -152,7 +146,7 @@ namespace MalagaJam.Object
 
             if (generatorState == GeneratorState.finished && otherGenerator.generatorState == GeneratorState.finished)
             {
-                door.UnlockDoor();
+//                door.UnlockDoor();
                 generatorState = GeneratorState.locked;
                 _Timer = 0;
             }
@@ -165,7 +159,7 @@ namespace MalagaJam.Object
 
         public override void Repair()
         {
-            if (!singlePlayer && ObjectsInRange.Count > 1) return;
+            if (ObjectsInRange.Count > 1) return;
             base.Repair();
         }
 

@@ -121,6 +121,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &61075223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2460580580474042568, guid: c6ddb03c265585c43a54a950aad15cc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 339352291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &61075224
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61075223}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 066b8dc3dfbe65f4a956d8da2372892b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &185426012
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +332,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 2460580580474042575, guid: c6ddb03c265585c43a54a950aad15cc0,
+        type: 3}
+      propertyPath: generators.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460580580474042575, guid: c6ddb03c265585c43a54a950aad15cc0,
+        type: 3}
+      propertyPath: generators.Array.data[0]
+      value: 
+      objectReference: {fileID: 969336712}
+    - target: {fileID: 2460580580474042575, guid: c6ddb03c265585c43a54a950aad15cc0,
+        type: 3}
+      propertyPath: generators.Array.data[1]
+      value: 
+      objectReference: {fileID: 992693481}
     - target: {fileID: 2460580580474042579, guid: c6ddb03c265585c43a54a950aad15cc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,7 +402,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61075224, guid: c6ddb03c265585c43a54a950aad15cc0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c6ddb03c265585c43a54a950aad15cc0, type: 3}
 --- !u!1 &429788972
 GameObject:
@@ -660,7 +701,7 @@ PrefabInstance:
     - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
         type: 3}
       propertyPath: singlePlayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb97f6c7184d694ea32baf0aa55bdc1, type: 3}
@@ -911,7 +952,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 339352291}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 61075223}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f262712592744cadbba0cf8099d77fe9, type: 3}
