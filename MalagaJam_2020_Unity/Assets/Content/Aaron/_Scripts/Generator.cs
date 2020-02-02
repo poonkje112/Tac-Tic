@@ -8,7 +8,8 @@ namespace MalagaJam.Object
     {
         idle,
         pressed,
-        locked
+        locked,
+        finished
     }
 
     public class Generator : RepairBase
@@ -17,7 +18,7 @@ namespace MalagaJam.Object
 
         [Header("Button Settings")] 
         [SerializeField] Slider slider;
-        bool singlePlayer = true;
+        [SerializeField] bool singlePlayer = true;
         public Door door;
         public Generator otherGenerator;
         bool _SkillCheck = false;
@@ -27,15 +28,20 @@ namespace MalagaJam.Object
 
         protected override void Update()
         {
-            ButtonBehaviour();
-            SkillCheckBehaviour();
+            if(objectRepairState == ObjectRepairState.Repaired)
+            {
+                ButtonBehaviour();
+                SkillCheckBehaviour();
+            }
             base.Update();
         }
 
         float _T = 0, _SliderValue = 0, _Cooldown = 0, _CooldownVal = 5, _TimeOut = 3;
+        bool _SkillCheckGoing = false;
+        Player _P;
         void SkillCheckBehaviour()
         {
-            if (_Cooldown <= 0)
+            if (_Cooldown <= 0 && generatorState != GeneratorState.finished)
             {
                 if (_SkillCheck)
                 {
@@ -44,39 +50,65 @@ namespace MalagaJam.Object
 
                 slider.value = Mathf.PingPong(_T, 1);
 
-                if (ObjectsInRange.Count > 0 && XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController()))
+                if (ObjectsInRange.Count > 0 && XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController()))
                 {
-                    ObjectsInRange[0].m_moveable = false;
-                    if (slider.value > 0.33 && slider.value < 0.66)
+                    if (slider.value > 0.33 && slider.value < 0.66 && _SkillCheckGoing)
                     {
-                        door.UnlockDoor();
-                        ObjectsInRange[0].m_moveable = true;
+                        if (singlePlayer)
+                            door.UnlockDoor();
+
+                        ResetSkillcheck();
+                        generatorState = GeneratorState.finished;
                         _T = _TimeOut;
                     }
                     else
                     {
-                        _SkillCheck = false;
-                        _Cooldown = _CooldownVal;
+                        if (_SkillCheckGoing)
+                        {
+                            ResetSkillcheck();
+                            _Cooldown = _CooldownVal;
+                        }
+                        else
+                        {
+                            _P = ObjectsInRange[0];
+                            _P.m_moveable = false;
+                            _SkillCheck = true;
+                            _SkillCheckGoing = true;
+                            generatorState = GeneratorState.locked;
+
+                        }
                     }
                 }
 
                 if (_T >= _TimeOut)
                 {
-                    _T = 0;
-                    _SkillCheck = false;
+                    ResetSkillcheck();
                     _Cooldown = _CooldownVal;
-                    ObjectsInRange[0].m_moveable = true;
                 }
             }
-            else
+            else if( generatorState != GeneratorState.finished)
             {
                 _Cooldown -= Time.deltaTime;
+            }    
+        }
+
+        void ResetSkillcheck()
+        {
+            if (_P != null)
+            {
+                _P.m_moveable = true;
+                _P = null;
             }
+
+            _T = 0;
+            _SkillCheck = false;
+            _SkillCheckGoing = false;
+            generatorState = GeneratorState.idle;
         }
 
         void ButtonBehaviour()
         {
-            if (ObjectsInRange.Count > 0 && objectRepairState == ObjectRepairState.Repaired)
+            if (ObjectsInRange.Count > 0 && objectRepairState == ObjectRepairState.Repaired && _Cooldown <= 0)
             {
                 if (singlePlayer)
                 {
@@ -97,10 +129,6 @@ namespace MalagaJam.Object
             if (XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController()) && buttonState != ButtonState.locked)
 #endif
             {
-                generatorState = GeneratorState.locked;
-                door.UnlockDoor();
-            } else if (XCI.GetButtonDown(XboxButton.B) && generatorState == GeneratorState.locked)
-            {
                 _SkillCheck = true;
             }
         }
@@ -111,23 +139,27 @@ namespace MalagaJam.Object
         {
             if (generatorState == GeneratorState.locked) return;
 
-            if (_Timer >= 1)
+            if (_Timer >= _TimeOut+2)
             {
-                generatorState = GeneratorState.idle;
                 _Timer = 0;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space)) generatorState = GeneratorState.pressed;
+            if (XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController())) _SkillCheck = true;
             if (generatorState == GeneratorState.pressed)
             {
                 _Timer += Time.deltaTime;
             }
 
-            if (generatorState == GeneratorState.pressed && otherGenerator.generatorState == GeneratorState.pressed)
+            if (generatorState == GeneratorState.finished && otherGenerator.generatorState == GeneratorState.finished)
             {
                 door.UnlockDoor();
                 generatorState = GeneratorState.locked;
                 _Timer = 0;
+            }
+            else
+            {
+//                generatorState = GeneratorState.idle;
+//                otherGenerator.generatorState = GeneratorState.idle;
             }
         }
 
