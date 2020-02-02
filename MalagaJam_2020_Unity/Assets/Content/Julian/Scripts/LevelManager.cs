@@ -46,15 +46,20 @@ public class LevelManager : MonoBehaviour
 
         if (m_state == LevelSate.moving)
         {
-
+            int players = 0;
             for (int i = 0; i < m_player.Length; i++)
             {
+
                 if (m_player[i].transform.position.y <= m_playerDeathHeight + m_camera.transform.position.y)
                     if (m_state != LevelSate.lose)
                         OnLose();
 
                 if (m_player[i].transform.position.y >= m_playerWinHeight)
-                    OnWin();
+                {
+                    players++;
+                    if(players >= 2)
+                        OnWin();
+                }
             }
         }
     }
@@ -83,9 +88,17 @@ public class LevelManager : MonoBehaviour
         SceneLoader.LoadSceneTransition(Scenes.MenuScene);
     }
 
+    private IEnumerator LoadWin()
+    {
+        yield return new WaitForSeconds(3.5f);
+        SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+    }
+
     private void OnWin()
     {
+        m_monsterAnimatior.SetTrigger("win");
         m_state = LevelSate.win;
+        StartCoroutine(LoadWin());
         Debug.Log("finish");
     }
 
