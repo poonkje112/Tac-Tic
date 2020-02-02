@@ -85,13 +85,13 @@ public class LevelManager : MonoBehaviour
     private IEnumerator LoadLose()
     {
         yield return new WaitForSeconds(2f);
-        SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+        SceneLoader.LoadSceneTransition(Scenes.EndingScreenLosing);
     }
 
     private IEnumerator LoadWin()
     {
         yield return new WaitForSeconds(3.5f);
-        SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+        SceneLoader.LoadSceneTransition(Scenes.EndingScreenWinning);
     }
 
     private void OnWin()

@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Content/Julian/Scenes/JulianScene.unity
     guid: 7558b0dc8ef006845b9499bbb7c9e95f
+  - enabled: 1
+    path: Assets/Content/Alberto/Scenes/Ending Screen Losing.unity
+    guid: a9ce2877941b28e4d9ba30378b231887
+  - enabled: 1
+    path: Assets/Content/Alberto/Scenes/Ending Screen Winning.unity
+    guid: b71fce68fe8248a4099652be97bb41cd
   m_configObjects: {}

@@ -11,6 +11,11 @@ public class MainMenu : MonoBehaviour
         SceneLoader.LoadSceneTransition(Scenes.LoreTextScreen);
     }
 
+    public void Main()
+    {
+        SceneLoader.LoadSceneTransition(Scenes.MenuScene);
+    }
+
     public void PlayGame()
     {
         SceneLoader.LoadSceneTransition(Scenes.JulianScene);
