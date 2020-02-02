@@ -18,7 +18,7 @@ namespace MalagaJam.Object
          */
 
         [Header("Object Settings")] [SerializeField]
-        XboxButton repairButton; // Move this to a general Input script?
+        protected XboxButton repairButton; // Move this to a general Input script?
 
         [SerializeField] Sprite brokenSprite, repairedSprite;
 
@@ -44,9 +44,9 @@ namespace MalagaJam.Object
         {
             // This is ugly af but in case we forget to remove this before release this will prevent it from getting into the build
 #if UNITY_EDITOR
-            if (Input.GetKeyDown(KeyCode.Space) || (ObjectsInRange.Count > 0 && XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController())))
+            if (Input.GetKeyDown(KeyCode.Space) || (ObjectsInRange.Count > 0 && XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController())) && objectRepairState != ObjectRepairState.Repaired)
 #else
-            if (Input.GetKeyDown(KeyCode.Space))
+            if ((ObjectsInRange.Count > 0 && XCI.GetButtonDown(repairButton, ObjectsInRange[0].GetController())) && objectRepairState != ObjectRepairState.Repaired)
 #endif
             {
                 Repair();
