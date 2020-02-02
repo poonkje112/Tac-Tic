@@ -121,6 +121,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &54097379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 54097379, guid: c6ddb03c265585c43a54a950aad15cc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 339352291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &54097382
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54097379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &61075223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2460580580474042568, guid: c6ddb03c265585c43a54a950aad15cc0,
@@ -636,7 +668,7 @@ PrefabInstance:
     - target: {fileID: 5019904293383449082, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.86
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5019904293383449082, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
         type: 3}
@@ -690,19 +722,9 @@ PrefabInstance:
       objectReference: {fileID: 1096274894}
     - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
         type: 3}
-      propertyPath: repairButton
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
-        type: 3}
       propertyPath: otherGenerator
       value: 
       objectReference: {fileID: 992693481}
-    - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
-        type: 3}
-      propertyPath: singlePlayer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb97f6c7184d694ea32baf0aa55bdc1, type: 3}
 --- !u!1 &835309712
@@ -919,19 +941,9 @@ PrefabInstance:
       objectReference: {fileID: 1096274894}
     - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
         type: 3}
-      propertyPath: repairButton
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
-        type: 3}
       propertyPath: otherGenerator
       value: 
       objectReference: {fileID: 969336712}
-    - target: {fileID: 5019904293383449083, guid: 4fb97f6c7184d694ea32baf0aa55bdc1,
-        type: 3}
-      propertyPath: singlePlayer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb97f6c7184d694ea32baf0aa55bdc1, type: 3}
 --- !u!114 &992693481 stripped
@@ -989,6 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  rotate: 1
 --- !u!212 &1170841221
 SpriteRenderer:
   m_ObjectHideFlags: 0

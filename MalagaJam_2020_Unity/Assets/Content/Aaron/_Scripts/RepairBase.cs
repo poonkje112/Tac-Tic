@@ -20,24 +20,24 @@ namespace MalagaJam.Object
         [Header("Object Settings")] [SerializeField]
         protected XboxButton repairButton; // Move this to a general Input script?
 
-        [SerializeField] Sprite brokenSprite, repairedSprite;
+        [SerializeField] protected Sprite brokenSprite, repairedSprite;
 
         [Space] [Header("DEBUG")] [SerializeField]
         protected ObjectRepairState objectRepairState;
 
         protected readonly List<Player> ObjectsInRange = new List<Player>();
-        SpriteRenderer _Sr;
+        [SerializeField] protected SpriteRenderer _Sr;
 
-        void Start()
+        protected virtual void Start()
         {
-            if (!TryGetComponent(out _Sr))
-            {
-                Debug.LogError("This object does not have an spriterenderer!", gameObject);
-            }
-            else
-            {
+//            if (!TryGetComponent(out _Sr))
+//            {
+//                Debug.LogError("This object does not have an spriterenderer!", gameObject);
+//            }
+//            else
+//            {
                 _Sr.sprite = brokenSprite;
-            }
+//            }
         }
 
         protected virtual void Update()
@@ -80,7 +80,6 @@ namespace MalagaJam.Object
 
             objectRepairState = ObjectRepairState.Repairing;
             objectRepairState = ObjectRepairState.Repaired;
-            _Sr.sprite = repairedSprite;
         }
     }
 }

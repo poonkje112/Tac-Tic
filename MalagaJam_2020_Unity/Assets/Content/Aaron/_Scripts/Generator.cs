@@ -18,13 +18,26 @@ namespace MalagaJam.Object
 
         [Header("Button Settings")] 
         [SerializeField] Slider slider;
-//        [SerializeField] bool singlePlayer = true;
+        [SerializeField] GameObject canvas;
+        [SerializeField] bool singlePlayer = true;
+        [SerializeField] Rotation[] Gears;
         public Door door;
         public Generator otherGenerator;
         bool _SkillCheck = false;
         
 
         public GeneratorState generatorState;
+
+        protected override void Start()
+        {
+            base.Start();
+            canvas.SetActive(false);
+            print(Gears.Length);
+            foreach (Rotation rot in Gears)
+            {
+                rot.rotate = false;
+            }
+        }
 
         protected override void Update()
         {
@@ -36,7 +49,7 @@ namespace MalagaJam.Object
             base.Update();
         }
 
-        float _T = 0, _SliderValue = 0, _Cooldown = 0, _CooldownVal = 5, _TimeOut = 3;
+        float _T = 0, _SliderValue = 0, _Cooldown = 0, _CooldownVal = 1, _TimeOut = 1;
         bool _SkillCheckGoing = false;
         Player _P;
         void SkillCheckBehaviour()
@@ -54,10 +67,14 @@ namespace MalagaJam.Object
                 {
                     if (slider.value > 0.33 && slider.value < 0.66 && _SkillCheckGoing)
                     {
-//                        door.UnlockDoor();
-print("AAAAs");
                         ResetSkillcheck();
                         generatorState = GeneratorState.finished;
+                        _Sr.sprite = repairedSprite;
+
+                        foreach (Rotation rot in Gears)
+                        {
+                            rot.rotate = true;
+                        }
                         _T = _TimeOut;
                     }
                     else
@@ -73,8 +90,8 @@ print("AAAAs");
                             _P.m_moveable = false;
                             _SkillCheck = true;
                             _SkillCheckGoing = true;
+                            canvas.SetActive(true);
                             generatorState = GeneratorState.locked;
-
                         }
                     }
                 }
@@ -105,6 +122,8 @@ print("AAAAs");
             
             if(generatorState != GeneratorState.finished)
                 generatorState = GeneratorState.idle;
+
+            canvas.SetActive(false);
         }
 
         void ButtonBehaviour()
