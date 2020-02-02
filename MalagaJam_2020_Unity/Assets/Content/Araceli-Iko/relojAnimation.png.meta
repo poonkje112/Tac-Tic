@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 655e8bf6b0400d741ac7d7cdda8cfdf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1281845669991123511
+    second: relojAnimation_0
+  - first:
+      213: 3444455243149893202
+    second: relojAnimation_1
+  - first:
+      213: 5980242968558695440
+    second: relojAnimation_2
+  - first:
+      213: 4954129945060389314
+    second: relojAnimation_3
+  - first:
+      213: -3374574074777578259
+    second: relojAnimation_4
+  - first:
+      213: 7288357849522795586
+    second: relojAnimation_5
+  - first:
+      213: -7654376319312827303
+    second: relojAnimation_6
+  - first:
+      213: -8527051875178163740
+    second: relojAnimation_7
+  - first:
+      213: -5160726342376722017
+    second: relojAnimation_8
+  - first:
+      213: -3294436709626223964
+    second: relojAnimation_9
+  - first:
+      213: -1474663669706506802
+    second: relojAnimation_10
+  - first:
+      213: 2893023226267463549
+    second: relojAnimation_11
+  - first:
+      213: 8207445712624434437
+    second: relojAnimation_12
+  - first:
+      213: -5127420398994287893
+    second: relojAnimation_13
+  - first:
+      213: 153805843715019548
+    second: relojAnimation_14
+  - first:
+      213: -2894304176021719999
+    second: relojAnimation_15
+  - first:
+      213: -5765865893109060373
+    second: relojAnimation_16
+  - first:
+      213: 2117031328539501164
+    second: relojAnimation_17
+  - first:
+      213: -1490259909015966960
+    second: relojAnimation_18
+  - first:
+      213: -5418332545101852258
+    second: relojAnimation_19
+  - first:
+      213: -5286726641622845864
+    second: relojAnimation_20
+  - first:
+      213: -920323625527612767
+    second: relojAnimation_21
+  - first:
+      213: -5334433538042069545
+    second: relojAnimation_22
+  - first:
+      213: -2005048705583970164
+    second: relojAnimation_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: relojAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3802
+        width: 1132
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f23e60d1ffec75488854d0ae1f015e8
+      internalID: -1281845669991123511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4752
+        width: 1132
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb3d524e2d94f743a5c1bae9979939d
+      internalID: 3444455243149893202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3802
+        width: 1134
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429c0d9a5a7284849832a4ea637cb5a9
+      internalID: 5980242968558695440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4752
+        width: 1134
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83b3899d844be48b4cbb4dbfaf11b6
+      internalID: 4954129945060389314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 3802
+        width: 1134
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f2ac1afb349f4fa65ea54909e28e9
+      internalID: -3374574074777578259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 4752
+        width: 1134
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde528d079230d34cbbbb8688ecd6528
+      internalID: 7288357849522795586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 3802
+        width: 1130
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c663dda3595adcd41a479a819e85cc63
+      internalID: -7654376319312827303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 4752
+        width: 1130
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6bc724a1ef88d4fabd533eb9a86d59
+      internalID: -8527051875178163740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1899
+        width: 1132
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a122c69bacc8cdd42ad4e80854fa95c8
+      internalID: -5160726342376722017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2849
+        width: 1132
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc0be17287d8284ebc1782181523776
+      internalID: -3294436709626223964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1899
+        width: 1134
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738429b4c0228544ea798e803d4bb570
+      internalID: -1474663669706506802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2849
+        width: 1134
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ad0c112df3c64fb83a084603f2e14
+      internalID: 2893023226267463549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 1899
+        width: 1134
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a6c54f9aff673438c9c37af0cf6b9e
+      internalID: 8207445712624434437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 2849
+        width: 1134
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6645754aacd6a647ae7fafe80b10152
+      internalID: -5127420398994287893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 1899
+        width: 1130
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60719233496747a4f841cf607c577956
+      internalID: 153805843715019548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2849
+        width: 1130
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc28e5fe9ff2eb4cb812cd670fdac91
+      internalID: -2894304176021719999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1132
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e96e26d9304042448455b455a35340f
+      internalID: -5765865893109060373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 949
+        width: 1132
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d3cc8263e723c49ad234c176b2306f
+      internalID: 2117031328539501164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 1134
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbffe8f3e9dace40b21f634f1e3b50a
+      internalID: -1490259909015966960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 949
+        width: 1134
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1580af78fe01e44a82d1e9adc9d0211
+      internalID: -5418332545101852258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 0
+        width: 1134
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3876bb0c2e194ac458ba1785e17972d3
+      internalID: -5286726641622845864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 949
+        width: 1134
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec87ea7aaaebd94d9a763ab7561c272
+      internalID: -920323625527612767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 0
+        width: 1130
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d565a2c61771043b32aa0404998f2f
+      internalID: -5334433538042069545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relojAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 949
+        width: 1130
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd971a84948b69747a3f452879d05d60
+      internalID: -2005048705583970164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
