@@ -69,6 +69,8 @@ namespace MalagaJam.Object
                     {
                         ResetSkillcheck();
                         generatorState = GeneratorState.finished;
+                        _Sr.sprite = repairedSprite;
+
                         foreach (Rotation rot in Gears)
                         {
                             rot.rotate = true;
