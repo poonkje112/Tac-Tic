@@ -43,6 +43,7 @@ public class LevelManager : MonoBehaviour
     {
         if(m_state == LevelSate.moving || m_state == LevelSate.win)
             m_camera.transform.position = Vector3.MoveTowards(m_camera.transform.position, new Vector3(m_finalPos.x, m_finalPos.y, m_camera.transform.position.z), m_levelSpeed * Time.deltaTime);
+
         if (m_state == LevelSate.moving)
         {
 
