@@ -11,6 +11,8 @@ public class Prallax : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = (m_followTransform.position * m_distance) + (Vector3)m_offset;
+        Vector3 toPos = (m_followTransform.position * m_distance) + (Vector3)m_offset;
+        toPos.z = 0;
+        transform.position = toPos;
     }
 }
