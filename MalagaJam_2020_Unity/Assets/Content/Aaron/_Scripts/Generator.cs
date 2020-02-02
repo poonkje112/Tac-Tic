@@ -136,11 +136,7 @@ namespace MalagaJam.Object
 
         void SingleButtonBehaviour()
         {
-            #if UNITY_EDITOR
-            if ((Input.GetKeyDown(KeyCode.Space) || XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController())) && generatorState != GeneratorState.locked)
-#else
-            if (XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController()) && buttonState != ButtonState.locked)
-#endif
+            if (XCI.GetButtonDown(XboxButton.B, ObjectsInRange[0].GetController()) && generatorState != GeneratorState.locked)
             {
                 _SkillCheck = true;
             }
