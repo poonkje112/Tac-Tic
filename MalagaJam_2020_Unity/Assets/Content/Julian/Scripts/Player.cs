@@ -78,20 +78,21 @@ public class Player : MonoBehaviour
             }
         }
 
-        float move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
-
+        float move = 0;
+        
         if (m_moveable)
+            move = XCI.GetAxis(XboxAxis.LeftStickX, m_controller) * m_maxSpeed;
+
+
+        if (animatiorState != 2)
         {
-            if (animatiorState != 2)
+            if (Mathf.Abs(move) > 0f)
             {
-                if (Mathf.Abs(move) > 0f)
-                {
-                    animatiorState = 1;
-                }
-                else
-                {
-                    animatiorState = 0;
-                }
+                animatiorState = 1;
+            }
+            else
+            {
+                animatiorState = 0;
             }
         }
 
