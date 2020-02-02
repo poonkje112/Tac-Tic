@@ -26,18 +26,18 @@ namespace MalagaJam.Object
         protected ObjectRepairState objectRepairState;
 
         protected readonly List<Player> ObjectsInRange = new List<Player>();
-        SpriteRenderer _Sr;
+        [SerializeField] SpriteRenderer _Sr;
 
-        void Start()
+        protected virtual void Start()
         {
-            if (!TryGetComponent(out _Sr))
-            {
-                Debug.LogError("This object does not have an spriterenderer!", gameObject);
-            }
-            else
-            {
+//            if (!TryGetComponent(out _Sr))
+//            {
+//                Debug.LogError("This object does not have an spriterenderer!", gameObject);
+//            }
+//            else
+//            {
                 _Sr.sprite = brokenSprite;
-            }
+//            }
         }
 
         protected virtual void Update()
