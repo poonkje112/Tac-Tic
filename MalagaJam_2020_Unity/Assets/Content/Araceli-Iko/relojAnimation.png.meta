@@ -103,21 +103,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -100
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 32
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -186,9 +186,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3802
-        width: 1132
-        height: 955
+        y: 4755
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f23e60d1ffec75488854d0ae1f015e8
+      spriteID: 20fc713b53eb31745bc10d076321de9c
       internalID: -1281845669991123511
       vertices: []
       indices: 
@@ -206,10 +206,10 @@ TextureImporter:
       name: relojAnimation_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4752
-        width: 1132
-        height: 954
+        x: 1128
+        y: 4755
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb3d524e2d94f743a5c1bae9979939d
+      spriteID: 5c89bf5ecfeff494786a305034579667
       internalID: 3444455243149893202
       vertices: []
       indices: 
@@ -227,10 +227,10 @@ TextureImporter:
       name: relojAnimation_2
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 3802
-        width: 1134
-        height: 955
+        x: 2256
+        y: 4755
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 429c0d9a5a7284849832a4ea637cb5a9
+      spriteID: 408f7a7d8c5b5b547a1e090bb0ead712
       internalID: 5980242968558695440
       vertices: []
       indices: 
@@ -248,10 +248,10 @@ TextureImporter:
       name: relojAnimation_3
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 4752
-        width: 1134
-        height: 954
+        x: 3384
+        y: 4755
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,7 +259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e83b3899d844be48b4cbb4dbfaf11b6
+      spriteID: 3cc581efa22fcc6429868eeecacd305a
       internalID: 4954129945060389314
       vertices: []
       indices: 
@@ -269,10 +269,10 @@ TextureImporter:
       name: relojAnimation_4
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 3802
-        width: 1134
-        height: 955
+        x: 0
+        y: 3804
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547f2ac1afb349f4fa65ea54909e28e9
+      spriteID: 3b552920e74637249b592c51c55be8a5
       internalID: -3374574074777578259
       vertices: []
       indices: 
@@ -290,10 +290,10 @@ TextureImporter:
       name: relojAnimation_5
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 4752
-        width: 1134
-        height: 954
+        x: 1128
+        y: 3804
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde528d079230d34cbbbb8688ecd6528
+      spriteID: 3bb2c1fc925972c4c84b6cd136b51b23
       internalID: 7288357849522795586
       vertices: []
       indices: 
@@ -311,10 +311,10 @@ TextureImporter:
       name: relojAnimation_6
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 3802
-        width: 1130
-        height: 955
+        x: 2256
+        y: 3804
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,7 +322,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c663dda3595adcd41a479a819e85cc63
+      spriteID: 94a03df18b785204fbed61f3c8f38701
       internalID: -7654376319312827303
       vertices: []
       indices: 
@@ -332,10 +332,10 @@ TextureImporter:
       name: relojAnimation_7
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 4752
-        width: 1130
-        height: 954
+        x: 3384
+        y: 3804
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,7 +343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a6bc724a1ef88d4fabd533eb9a86d59
+      spriteID: 5b3471fd739913f40bfbba76ae3e867a
       internalID: -8527051875178163740
       vertices: []
       indices: 
@@ -354,9 +354,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1899
-        width: 1132
-        height: 958
+        y: 2853
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a122c69bacc8cdd42ad4e80854fa95c8
+      spriteID: 0d9d3abeb54ccd94bb33cb3634107e0a
       internalID: -5160726342376722017
       vertices: []
       indices: 
@@ -374,10 +374,10 @@ TextureImporter:
       name: relojAnimation_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2849
-        width: 1132
-        height: 958
+        x: 1128
+        y: 2853
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,7 +385,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc0be17287d8284ebc1782181523776
+      spriteID: c303f27483da792439b1522192935feb
       internalID: -3294436709626223964
       vertices: []
       indices: 
@@ -395,10 +395,10 @@ TextureImporter:
       name: relojAnimation_10
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 1899
-        width: 1134
-        height: 958
+        x: 2256
+        y: 2853
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,7 +406,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 738429b4c0228544ea798e803d4bb570
+      spriteID: f6495c9ea6a42094ba08c3b8acc2150f
       internalID: -1474663669706506802
       vertices: []
       indices: 
@@ -416,10 +416,10 @@ TextureImporter:
       name: relojAnimation_11
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 2849
-        width: 1134
-        height: 958
+        x: 3384
+        y: 2853
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,7 +427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d99ad0c112df3c64fb83a084603f2e14
+      spriteID: e60238713bd5cda41bab666bd69b4e51
       internalID: 2893023226267463549
       vertices: []
       indices: 
@@ -437,10 +437,10 @@ TextureImporter:
       name: relojAnimation_12
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 1899
-        width: 1134
-        height: 958
+        x: 0
+        y: 1902
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,7 +448,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a6c54f9aff673438c9c37af0cf6b9e
+      spriteID: 79de04dd98723fb4cb03769548efcc9f
       internalID: 8207445712624434437
       vertices: []
       indices: 
@@ -458,10 +458,10 @@ TextureImporter:
       name: relojAnimation_13
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 2849
-        width: 1134
-        height: 958
+        x: 1128
+        y: 1902
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,7 +469,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6645754aacd6a647ae7fafe80b10152
+      spriteID: caa2d2237d267724e9eb7d9b78c108fc
       internalID: -5127420398994287893
       vertices: []
       indices: 
@@ -479,10 +479,10 @@ TextureImporter:
       name: relojAnimation_14
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 1899
-        width: 1130
-        height: 958
+        x: 2256
+        y: 1902
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,7 +490,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60719233496747a4f841cf607c577956
+      spriteID: 7ee51a94c2e89e84096c00a3c9874217
       internalID: 153805843715019548
       vertices: []
       indices: 
@@ -500,10 +500,10 @@ TextureImporter:
       name: relojAnimation_15
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 2849
-        width: 1130
-        height: 958
+        x: 3384
+        y: 1902
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,7 +511,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbc28e5fe9ff2eb4cb812cd670fdac91
+      spriteID: 673c2756293aaa743a8e57b22d997aa8
       internalID: -2894304176021719999
       vertices: []
       indices: 
@@ -522,9 +522,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1132
-        height: 954
+        y: 951
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,7 +532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e96e26d9304042448455b455a35340f
+      spriteID: a3e340e3ee5f8154c954e8380c33b612
       internalID: -5765865893109060373
       vertices: []
       indices: 
@@ -542,10 +542,10 @@ TextureImporter:
       name: relojAnimation_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 949
-        width: 1132
-        height: 955
+        x: 1128
+        y: 951
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,7 +553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d3cc8263e723c49ad234c176b2306f
+      spriteID: 656721010b103b4459c3e80dfa793415
       internalID: 2117031328539501164
       vertices: []
       indices: 
@@ -563,10 +563,10 @@ TextureImporter:
       name: relojAnimation_18
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 0
-        width: 1134
-        height: 954
+        x: 2256
+        y: 951
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,7 +574,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbffe8f3e9dace40b21f634f1e3b50a
+      spriteID: 3de315ff088bdf743b6737814136109e
       internalID: -1490259909015966960
       vertices: []
       indices: 
@@ -584,10 +584,10 @@ TextureImporter:
       name: relojAnimation_19
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 949
-        width: 1134
-        height: 955
+        x: 3384
+        y: 951
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,7 +595,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1580af78fe01e44a82d1e9adc9d0211
+      spriteID: 94134a962d8f2d044a7c2d6bb2011979
       internalID: -5418332545101852258
       vertices: []
       indices: 
@@ -605,10 +605,10 @@ TextureImporter:
       name: relojAnimation_20
       rect:
         serializedVersion: 2
-        x: 2253
+        x: 0
         y: 0
-        width: 1134
-        height: 954
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,7 +616,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3876bb0c2e194ac458ba1785e17972d3
+      spriteID: ca2e5145a86d2bc4aad18118d53dd47f
       internalID: -5286726641622845864
       vertices: []
       indices: 
@@ -626,10 +626,10 @@ TextureImporter:
       name: relojAnimation_21
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 949
-        width: 1134
-        height: 955
+        x: 1128
+        y: 0
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,7 +637,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ec87ea7aaaebd94d9a763ab7561c272
+      spriteID: ca6487b975a1efa4eb2258a9ee3366ec
       internalID: -920323625527612767
       vertices: []
       indices: 
@@ -647,10 +647,10 @@ TextureImporter:
       name: relojAnimation_22
       rect:
         serializedVersion: 2
-        x: 3382
+        x: 2256
         y: 0
-        width: 1130
-        height: 954
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,7 +658,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6d565a2c61771043b32aa0404998f2f
+      spriteID: 4f065d643e7c8f049a47204f25c0bdf8
       internalID: -5334433538042069545
       vertices: []
       indices: 
@@ -668,10 +668,10 @@ TextureImporter:
       name: relojAnimation_23
       rect:
         serializedVersion: 2
-        x: 3382
-        y: 949
-        width: 1130
-        height: 955
+        x: 3384
+        y: 0
+        width: 1128
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,7 +679,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd971a84948b69747a3f452879d05d60
+      spriteID: b926d36537e61fa42abdbe9cd6e2a94f
       internalID: -2005048705583970164
       vertices: []
       indices: 
